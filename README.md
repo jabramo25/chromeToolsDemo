@@ -17,7 +17,7 @@ Clone this project and cd to it
 
 `cd chromeToolsDemo`
 
-Run npm install to install any needed 3rd party libraries
+Run npm install to install any needed 3rd party libraries. If this fails you may need to re-open your command line window. 
 
 `npm install` 
 
