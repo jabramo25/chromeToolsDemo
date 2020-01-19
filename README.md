@@ -1,5 +1,5 @@
 # Chrome Tools Demo
-A Demo to accompany a talk on Chrome Dev Tools and tips for debugging. 
+A Demo to accompany a talk on Chrome Dev Tools and tips for debugging JavaScript Applications. 
 
 To run the demo, ensure you have node installed. https://nodejs.org/en/download/
 To verify the installation is correct, open a command line window and run: 
