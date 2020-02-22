@@ -23,19 +23,18 @@ class LoadFrameworks {
     }
 
     loadFromServer() {
-        let promise = this.ajaxCall("get", "/frameworks");
+        let promise = this.ajaxCall("get", "/framworks");
 
         promise.then((results) => {
             this.frameworks = results;
             this.displayResults(results);
-            //show problem with trying to access this before its defined.
         }).catch(() => {
-            //console.log("some error happend");
+            console.log("some error happened");
         });
     }
 
     displayResults(results) {
-        let list = documendt.getElementById("#frameworkList");
+        let list = document.getElementById("#frameworkList");
         for (let framework of results) {
             let li = document.createElement("li");
             //show the call stack from here. 

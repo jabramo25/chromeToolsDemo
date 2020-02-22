@@ -20,10 +20,6 @@ button:hover {
   border-color: aqua;
 }
 
-#mainButton {
-  color: purple;
-}
-
 .page-link {
   padding-top: 25px;
   display: block; 
@@ -36,6 +32,10 @@ button:hover {
 }
 
 .main-button {
+  color: purple;
+}
+
+#mainButton {
   color: purple;
 }
 
